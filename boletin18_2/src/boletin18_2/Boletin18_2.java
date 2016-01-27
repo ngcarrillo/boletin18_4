@@ -20,7 +20,10 @@ public class Boletin18_2 {
         notas obxNotas = new notas();
         obxNotas.cargarArray();
         obxNotas.visualizar();
+        obxNotas.visualizarArray();
         obxNotas.calcularmedia();
+        obxNotas.buscarAlumno();
+        obxNotas.ordenar();
     }
     
 }
