@@ -82,6 +82,7 @@ public class notas {
         String aux1;
         for (int x = 0; x < notas.length - 1; x++) {
             for (int j = x + 1; j < notas.length; j++) {
+                
                 if (notas[j] > notas[x]) {
                     
                     
